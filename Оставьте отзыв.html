@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Пример веб-страницы</title>
+
+<style type="text/css">
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    font: 12px/18px Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    width: 915px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+ 
+ 
+
+.header {
+    height: 160px;
+    background: #2b2b2b;
+}
+
+#facebook,#twitter,#mailru,#odnoklas,#vk{ float:left; margin-right: 20px; margin-top: 35px;  }
+#facebook{margin-left: 100px;}
+#vk{clear: right;}
+ 
+.post{background-image: url(../Image/postLike.jpg); width: 356px; height: 50px; margin-top: 30px; clear: both; text-align: center; margin: 0 auto;}
+#comm,#allComent{float:left; width: 417px; margin: 20px; }
+#allComent{text-align: right; }
+ 
+.content {
+    padding: 0 0 90px; height: 794px;
+    background: rgb(102, 102, 102);
+    padding-left: 40px; padding-top: 20px;
+}
+ul:before{content: url(../Image/ava.jpg); float: left; padding-right: 10px;}
+ul{list-style: none;}
+#TextKomenta{width: 770px;height: 80px;}
+.btnWrite{float: right; margin-right: 45px; margin-top: 30px;}
+.areaTextBox{margin: 0 auto; width: 770px; height: 80px;padding-left: 10px; padding-top: 15px; }
+#hr-com{width: 770px; margin-top: 110px;}
+ 
+ 
+footer {
+    width: 915px;
+    margin: -90px auto 0;
+    height: 90px;
+    background: #BFF08E;
+    position: relative;
+}
+</style>
+</head>
+<body>
+    <div class="wrapper">
+ 
+        <div class="header">
+        
+           <div class="button" > 
+            
+            <div class="post">
+            
+           Оставьте свой отзыв...
+            
+            </div>
+            
+            <p id="comm">
+            Комментарии (53):
+            </p>
+            
+            <p id="allComent">
+            Все комментарии
+            </p>
+             
+        </div>
+        <p><a href="Тур.html">Вернуться на главную страницу</a></p>
+    <hr />
+        <div class="content">
+        
+            
+            <ul>
+            
+            <li>
+      <form>
+            
+            <p> Добавлено: 10.04.2021 </p>
+            <p> Добавить комментарий: </p>
+            
+            <div class="areaTextBox">
+            <p > 
+                    <textarea  wrap="virtual" maxlength="100" id="TextKomenta">Текст сообщения</textarea>
+            </p>
+            </div>
+            
+            <p class="btnWrite">
+                <input type="image" src="Image/Button.jpg" id="BtnWrite" />
+                <br />
+               </p>  
+             <hr id="hr-com" /> 
+           
+          
+            </li>
+          
+      </form>
+            
+            </ul>
+       
+        </div>
+     
+    </div>
+     
+    <div class="footer">
+        <strong></strong> 
+       
+    </div>
+
+</body>
+</html>
